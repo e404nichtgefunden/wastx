@@ -1,0 +1,12 @@
+# Node
+node_modules/
+npm-debug.log
+
+# Auth files
+auth_info.json
+auth_*.json
+allowed_users.json
+running_bots.json
+
+# Binaries
+stx

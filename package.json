@@ -1,0 +1,15 @@
+{
+  "name": "wa_kecee_bot_baileys",
+  "version": "1.1.0",
+  "description": "WhatsApp Terminal Bot with Sub-Bot Support",
+  "main": "index_baileys.js",
+  "scripts": {
+    "start": "node index_baileys.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "fs-extra": "^11.1.1"
+  },
+  "author": "@kecee_pyrite",
+  "license": "GPL-3.0"
+}

@@ -1,0 +1,12 @@
+[Unit]
+Description=WA Bot Baileys by @kecee_pyrite
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/node /root/wa_kecee_bot/index_baileys.js
+WorkingDirectory=/root/wa_kecee_bot
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
